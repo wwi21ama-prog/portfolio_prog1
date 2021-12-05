@@ -5,27 +5,35 @@
 Dieses Repo enthält Prüfungsaufgaben für die Vorlesung "Programmierung 1".
 
 ## Aufbau der Aufgaben
-Zu jeder Aufgabe (außer der letzten) gibt es zwei Go-Dateien:
-In einer Datei wird die Aufgabe formuliert, in der anderen stehen Tests für die Aufgabe.
-Die Test-Datei heißt genau wie die Aufgaben-Datei mit einem zusätzlich angehängten "_test".
-Beispiel: `01_arrays.go` enthäkt die erste Aufgabe zu Arrays, `01_arrays_test.go` enthält
+Zu jeder Aufgabe (außer der letzten) gibt es zwei Go-Dateien:  
+In einer Datei wird die Aufgabe formuliert, in der anderen stehen Tests für die Aufgabe.  
+Die Test-Datei heißt genau wie die Aufgaben-Datei mit einem zusätzlich angehängten "_test".  
+Beispiel: `01_arrays.go` enthält die erste Aufgabe zu Arrays, `01_arrays_test.go` enthält
 den zugehörigen Testcode.
 
 Implementieren Sie Ihre Lösung in der Aufgaben-Datei und nutzen Sie die Funktion(en) aus der Testdatei,
 um Ihre Lösung zu testen.
-* Sie können die Tests automatisch ausführen lassen, indem Sie auf der Konsole
-den Befehl `go test` verwenden. Dies führt alle Funktionen aus Test-Dateien aus,
-die mit `Example_` beginnen, und vergleicht deren Ausgabe mit dem, was in der jeweiligen Funktion unten
-unter der Zeile `// Output:` steht.
-* Sie können die Tests natürlich auch manuell in der `main()`-Funktion in `main.go` ausführen.
+* Sie können die Tests automatisch ausführen lassen, indem Sie auf der Konsole den Befehl `go test` verwenden.  
+  Dies führt alle Funktionen aus Test-Dateien aus, die mit `Example_` beginnen, und vergleicht deren Ausgabe  
+  mit dem, was in der jeweiligen Funktion unten unter der Zeile `// Output:` steht.
+* Um nur die Tests für eine einzelne Aufgabe auszuführen, verwenden Sie z.B. `go test -run 01`.  
+  Hinter dem `-run` kann ein Test-Name oder ein Teil davon stehen, es werden dann alle Tests ausgeführt, die dazu passen.
+* Sie können die Tests natürlich auch manuell in der `main()`-Funktion in `main.go` ausführen.  
+  Die `main()`-Funktion ist bisher leer, kann baer für eigene Tests und ggf. für Aufgabe 6 oder 7 verwendet werden.
+
+### Bearbeiten des Repos auf replit.com
+* Der Badge oben auf dieser Seite öffnet das Repo auf replit.com.  
+  Die Replit-Konfiguration ist so eingestellt, dass beim Klick auf den Run-Button alle Tests ausgeführt werden.  
+  Um einzelne Tests oder die `main.go` auszuführen, ändern Sie die run-Zeile in .replit oder benutzen Sie die Konsole.
 
 ## Prüfungsmodalitäten
 
 ### Abgabe
 * **Termin:** 24.12.2021, 00 Uhr
 * Abgabe über **Moodle**
-* Arbeit/Abgabe in Gruppen erlaubt (1-3 Personen pro "Gruppe")
-    * Bitte unbedingt angeben, wie die Gruppen zusammengesetzt sind.
+* Arbeit/Abgabe in Gruppen erlaubt
+    * 1-3 Personen pro Abgabe
+    * Bitte unbedingt mit angeben, wie die Gruppen zusammengesetzt sind.
 
 ### Prüfungsgespräche
 * Prüfungsgespräch mit jeder/jedem erforderlich.
@@ -36,16 +44,16 @@ unter der Zeile `// Output:` steht.
 
 ## Bewertungskriterien
 
-Für die Aufgaben 1-5 werden in erster Linie die Tests ausschlaggebend sein.
-D.h. die Tests müssen laufen, die Signaturen der Funktionen sollen auch nicht verändert werden.
-Neben den Tests aus diesem Repo wird es weitere Tests für jede der Funktionen geben, mit denen
-andere Werte, Sonderfälle etc. geprüft werden.
+Für die Aufgaben 1-5 werden in erster Linie die Tests ausschlaggebend sein.  
+D.h. die Tests müssen laufen, die Signaturen der Funktionen sollen auch nicht verändert werden.  
+Neben den Tests aus diesem Repo wird es weitere Tests für jede der Funktionen geben,  
+mit denen andere Werte, Sonderfälle etc. geprüft werden.
 
-Wer die Aufgaben 1-5 vollständig bearbeitet, die Tests aus diesem Repo zum Laufen bringt
+Wer die Aufgaben 1-5 vollständig bearbeitet, die Tests aus diesem Repo zum Laufen bringt  
 und die Lösung im Prüfungsgespräch erklären kann, besteht die Prüfung.
 
-Für eine gute Note müssen auch die Aufgaben 6 und 7 bearbeitet werden.
-Die genaueren Bewertungskriterien für diese beiden Aufgaben stehen in den jeweiligen Go-Dateien.
-Bei allen Aufgaben spielt für die Bewertung neben der Korrektheit auch der Programmierstil eine Rolle.
-D.h. Sie sollten auf gute Lesbarkeit achten, z.B. sprechende Funktions- und Variablennamen verwenden
+Für eine gute Note müssen auch die Aufgaben 6 und 7 bearbeitet werden.  
+Die genaueren Bewertungskriterien für diese beiden Aufgaben stehen in den jeweiligen Go-Dateien.  
+Bei allen Aufgaben spielt für die Bewertung neben der Korrektheit auch der Programmierstil eine Rolle.  
+D.h. Sie sollten auf gute Lesbarkeit achten, z.B. sprechende Funktions- und Variablennamen verwenden  
 und Kommentare zur Erklärung einbauen, wo der Code nicht selbsterklärend ist.
