@@ -12,7 +12,7 @@ func Example_04_rekursion() {
 	fmt.Println(power2(0))
 
 	// Output:
-	// 2
+	// 4
 	// 32
 	// 1
 }

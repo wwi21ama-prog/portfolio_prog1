@@ -20,7 +20,7 @@ func Example_01_arrays() {
 
 	// Output:
 	// 66
-	// 288
-	// 0
+	// 168
+	// 6
 	// 1
 }
