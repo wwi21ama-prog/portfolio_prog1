@@ -18,6 +18,9 @@ Erläutern Sie Ihren Lösungsansatz kurz mittels Kommentaren.
 
 Eine einfache Lösung muss zunächst nur reguläre  Kleinbuchstaben unterstützen,
 Großbuchstaben, Umlaute, Sonderzeichen etc. sind nicht notwendig.
+Genauer: Sie sollten alle Kleinbuchstaben des Alphabets im gleichen Stil unterstützen,
+wie der Test ihn vorgibt. Die Webseite aus der Aufgabenstellung ist dabei als Orientierung
+gedacht, nicht als feste Vorgabe.
 
 Fortgeschrittene Aufgabe: Erweitern Sie die Basis-Lösung, so dass sie
 verschiedene Schriftarten und -größen unterstützt.
