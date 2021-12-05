@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Gibt Ergebnisse von colour() auf die Konsole aus.
+// Gibt Ergebnisse von power2() auf die Konsole aus.
 // Der Kommentar unten gibt die erwarteten Ergebnisse an.
 // Automatische Prüfung mittels des Befehls "go test" (statt "go run").
 func Example_04_rekursion() {
